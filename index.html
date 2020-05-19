@@ -13,7 +13,7 @@
     <nav id="nav">
       <div id="logo">Victor</div>
       <ul id="options">
-        <li class="option"><a href="#home">Home</a></li>
+        <li class="option"><a href="#header">Home</a></li>
         <li class="option"><a href="#profile">Profile</a></li>
         <li class="option"><a href="#contact">Contact</a></li>
         <li class="option"><a href="#projects">Projects</a></li>
@@ -21,6 +21,59 @@
       </ul>
     </nav>
   </header>
+
+  <main id="home" class="showcase">
+    <div class="showcase__content">
+      <div class="text-content">
+        <h1 class="l-heading bg-dark">Hey, <br> I'm Victor</h1>
+        <p class="lead bg-dark">Web and Mobile Developer</p>
+      </div>
+      <!-- <div class="img"> -->
+      <img src="./profile-pic2.png" alt="profile-pic">
+      <!-- </div> -->
+    </div>
+  </main>
+
+  <div class="profile">
+    <h2 id="profile" class="m-heading bg-dark">Profile</h2>
+    <h3>Fullname: Adewumi Victor</h3>
+    <p>State of Origin: Ekiti State</p>
+    <p>Date of birth: 14th, March </p>
+    <p>
+      <address>Address: No 53, Araromi Street, Ikere Ekiti, Ekiti State.</address>
+    </p>
+    <p>Occupation: Sotware Engineer</p>
+    <p>Home Town: Iworoko Ekiti</p>
+    <p>slackID: Victor-pro</p>
+    <p>Hobbies: Learning, Sprinting, Reading and Praising God</p>
+    <!-- <p>Interests: </p> -->
+  </div>
+  <section id="contact">
+    <div class="contact-form bg-primary p-2">
+      <h2 class="m-heading">Contact Us</h2>
+      <p>Please use the form below to contact us</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter Email">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+        </div>
+        <input type="submit" value="Send" class="btn btn-dark">
+      </form>
+    </div>
+    <div class="map"></div>
+  </section>
 </body>
 
 </html>
