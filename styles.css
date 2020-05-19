@@ -129,9 +129,9 @@ p {
 
 /* Profile */
 .profile {
- margin-top: 1.5rem;
+ padding-top: 1.5rem;
  text-align: center;
- /* background: var(--primary-color); */
+ background: rgba(171, 183, 183, 1);
  height: 100vh;
 }
 
